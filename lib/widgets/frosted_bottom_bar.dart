@@ -44,7 +44,7 @@ class FrostedBottomBar extends ConsumerWidget {
               unselectedItemColor: Colors.grey,
               unselectedFontSize: 11,
               onTap: (index) =>
-                  {ref.read(navIndexProvider.notifier).value = index},
+                  ref.read(navIndexProvider.notifier).value = index,
             ),
           ),
         ),
