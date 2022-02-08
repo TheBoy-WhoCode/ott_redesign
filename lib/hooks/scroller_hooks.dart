@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 
-import '../providers/nav_provider.dart';
 
 ScrollController useScrollControllerForAnimation(
   AnimationController animationController,
